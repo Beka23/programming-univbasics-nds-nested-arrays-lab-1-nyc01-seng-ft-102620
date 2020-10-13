@@ -32,6 +32,7 @@ def sorted_matrix
 assembled_array = [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
 sorted_array = [assembled_array[0],assembled_array[1]]
 sorted_array.sort
+end
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
